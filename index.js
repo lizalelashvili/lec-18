@@ -89,7 +89,7 @@ createSlider();
 
 // CountDown
 
-var deadline = new Date("2023-03-17 20:00").getTime();
+var deadline = new Date("2023-03-21 20:00").getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var t = deadline - now;
